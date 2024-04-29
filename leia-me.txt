@@ -1,0 +1,13 @@
+Autor: Maicon Ribeiro
+
+Esse projeto foi desenvolvido para o processo seletivo de cientista de dados da Zetta
+
+Para executá-lo, siga os passos a seguir:
+	1 - Acesse a pasta para onde os dados foram movidos
+	2 - No terminal, execute os seguintes comandos:
+		docker build -t projetozetta .
+		docker-compose up
+
+	3 - No terminal, execute os comandos:
+		python3 app/leArquivos.py
+		python3 app/treinamentos.py
